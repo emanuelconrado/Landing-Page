@@ -3,6 +3,11 @@
         flex-direction: column;
     }
 
+    .Cabecalho-menu-item{
+        font-size: 15px;
+    }
+
+
     .conteudo{
         flex-direction: column;
         align-self: center;
@@ -15,11 +20,20 @@
     .conteudo-inicial-escrito-titulo{
         display: flex;
         align-self: center;
+        font-size: 40px;
+    }
+
+    .conteudo-inicial-escrito-subtitulo{
+        font-size: 20px;
     }
 
     .conteudo-inicial-escrito{
         display: flex;
         flex-direction: column;
         align-items: center;
+    }
+
+    .conteudo-secundario-paragrafo{
+        font-size: 10px;
     }
 }
