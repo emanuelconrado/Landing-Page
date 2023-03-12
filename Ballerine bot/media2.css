@@ -1,0 +1,25 @@
+@media screen and (max-width: 760px){
+    .Cabecalho{
+        flex-direction: column;
+    }
+
+    .conteudo{
+        flex-direction: column;
+        align-self: center;
+    }
+
+    img{
+        display: none;
+    }
+
+    .conteudo-inicial-escrito-titulo{
+        display: flex;
+        align-self: center;
+    }
+
+    .conteudo-inicial-escrito{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+}
